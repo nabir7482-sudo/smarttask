@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * Centralized exception handler for all REST controllers.
  *
- * Key Interview Concepts:
+ 
  * - @RestControllerAdvice: Intercepts exceptions thrown across any controller class.
  * - @ExceptionHandler: Maps specific exception types to dedicated handler methods.
  * - Guarantees a predictable, consistent JSON error envelope for client applications.

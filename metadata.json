@@ -1,0 +1,6 @@
+{
+  "name": "SmartTask – Employee Task Management System",
+  "description": "Production-grade SaaS employee task management system for modern engineering teams with Spring Boot and React.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

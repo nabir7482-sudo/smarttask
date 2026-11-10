@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SmartTask Backend",
+      "request": "launch",
+      "mainClass": "com.smarttask.SmartTaskApplication",
+      "projectName": "smarttask-backend",
+      "cwd": "${workspaceFolder}/backend",
+      "env": {
+        "JWT_SECRET": "${env:JWT_SECRET}"
+      }
+    }
+  ]
+}

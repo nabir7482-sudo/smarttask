@@ -11,14 +11,7 @@ import org.springframework.stereotype.Repository;
 import java.time.LocalDate;
 import java.util.List;
 
-/**
- * Spring Data JPA Repository for Task entity.
- *
- * Key Interview Concepts:
- * - JpaRepository<Task, Long>: Provides out-of-the-box CRUD operations (save, findById, findAll, deleteById).
- * - Spring Data JPA generates proxy implementations automatically at runtime—no manual SQL needed.
- * - JPQL (Java Persistence Query Language): Queries against Java entity classes and attributes, not database tables.
- */
+
 @Repository
 public interface TaskRepository extends JpaRepository<Task, Long> {
 
